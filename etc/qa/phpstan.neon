@@ -1,0 +1,15 @@
+parameters:
+	excludePaths:
+		- ../../src/ContextAwareConnection.php
+	ignoreErrors:
+		-
+			identifier: ergebnis.noParameterWithNullableTypeDeclaration
+			path: ../../src/SocketInstrumentation.php
+		-
+			identifier: shipmonk.deadConstant
+			path: ../../src/SocketInstrumentation.php
+
+#	ergebnis:
+#		noExtends:
+#			classesAllowedToBeExtended:
+#				- Psr\Log\AbstractLogger
