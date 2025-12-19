@@ -14,7 +14,7 @@
     "react/stream": "^1.4"
   },
   "require-dev": {
-    "wyrihaximus/async-test-utilities": "^10.0.0",
+    "wyrihaximus/async-test-utilities": "^10.7.0",
     "wyrihaximus/makefiles": "^0.6.0"
   },
   "autoload": {
