@@ -152,7 +152,6 @@ final class SocketInstrumentation
                     $span->setStatus(StatusCode::STATUS_ERROR, $exception->getMessage());
                     $span->end();
 
-                    /** @phpstan-ignore shipmonk.checkedExceptionInCallable */
                     throw $exception;
                 });
             },

@@ -82,7 +82,7 @@ final class SocketInstrumentationTest extends AsyncTestCase
     {
         self::assertCount(0, $this->storage);
         $connection = await($this->client->connect($this->serverAddress));
-        $connection->on('data', static function (string $data) use ($connection): void {
+        $connection->on('data', static function () use ($connection): void {
             $connection->end();
         });
         $connection->write('ping');
