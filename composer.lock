@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ab3c1bbf9f8b6485b829f69cf5d16961",
+    "content-hash": "ef9d01311e0bdb91bbceb34461aeaedc",
     "packages": [
         {
             "name": "brick/math",
@@ -10487,34 +10487,34 @@
         },
         {
             "name": "wyrihaximus/async-test-utilities",
-            "version": "13.4.1",
+            "version": "13.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WyriHaximus/php-async-test-utilities.git",
-                "reference": "a0aa6b33a2ef02373937872f34b6175cab745bf8"
+                "reference": "142c4bbdee36d6f3c378e1decba97b063958a073"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WyriHaximus/php-async-test-utilities/zipball/a0aa6b33a2ef02373937872f34b6175cab745bf8",
-                "reference": "a0aa6b33a2ef02373937872f34b6175cab745bf8",
+                "url": "https://api.github.com/repos/WyriHaximus/php-async-test-utilities/zipball/142c4bbdee36d6f3c378e1decba97b063958a073",
+                "reference": "142c4bbdee36d6f3c378e1decba97b063958a073",
                 "shasum": ""
             },
             "require": {
                 "php": "^8.4",
-                "phpunit/phpunit": "^13.2.4",
+                "phpunit/phpunit": "^13.2.6",
                 "react/async": "^4.3.0",
                 "react/event-loop": "^1.6.0",
                 "react/promise": "^3.3.0",
                 "wyrihaximus/phpstan-react": "^2.0.0",
                 "wyrihaximus/react-phpunit-run-tests-in-fiber": "^4.0.0",
-                "wyrihaximus/test-utilities": "^13.4.0"
+                "wyrihaximus/test-utilities": "^13.5.0"
             },
             "conflict": {
                 "composer/compoer": "<2.6.0"
             },
             "require-dev": {
                 "react/promise-timer": "^1.11.0",
-                "wyrihaximus/makefiles": "^0.13.1"
+                "wyrihaximus/makefiles": "^0.13.3"
             },
             "type": "library",
             "extra": {
@@ -10542,7 +10542,7 @@
             "description": "Test utilities for api-clients packages",
             "support": {
                 "issues": "https://github.com/WyriHaximus/php-async-test-utilities/issues",
-                "source": "https://github.com/WyriHaximus/php-async-test-utilities/tree/13.4.1"
+                "source": "https://github.com/WyriHaximus/php-async-test-utilities/tree/13.5.0"
             },
             "funding": [
                 {
@@ -10550,7 +10550,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-07-18T21:49:09+00:00"
+            "time": "2026-07-30T08:44:09+00:00"
         },
         {
             "name": "wyrihaximus/coding-standard",
@@ -10895,16 +10895,16 @@
         },
         {
             "name": "wyrihaximus/test-utilities",
-            "version": "13.4.0",
+            "version": "13.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WyriHaximus/php-test-utilities.git",
-                "reference": "436d85d15fd94645acc3a33ef85024c86df92227"
+                "reference": "6290c6c641937145123e080ca7929460c95dc468"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WyriHaximus/php-test-utilities/zipball/436d85d15fd94645acc3a33ef85024c86df92227",
-                "reference": "436d85d15fd94645acc3a33ef85024c86df92227",
+                "url": "https://api.github.com/repos/WyriHaximus/php-test-utilities/zipball/6290c6c641937145123e080ca7929460c95dc468",
+                "reference": "6290c6c641937145123e080ca7929460c95dc468",
                 "shasum": ""
             },
             "require": {
@@ -10914,29 +10914,30 @@
                 "ext-hash": "^8.4",
                 "ext-json": "^8.4",
                 "icanhazstring/composer-unused": "^0.9.6",
-                "infection/infection": "^0.34.0",
+                "infection/infection": "^0.34.1",
                 "maglnet/composer-require-checker": "^4.20.0",
                 "mockery/mockery": "^1.6.12",
                 "php": "^8.4",
                 "php-parallel-lint/php-console-highlighter": "^1.0.0",
                 "php-parallel-lint/php-parallel-lint": "^1.4.0",
-                "phpstan/phpstan": "^2.2.5",
-                "phpunit/phpunit": "^13.2.4",
-                "rector/rector": "^2.5.7",
+                "phpstan/phpstan": "^2.2.7",
+                "phpunit/phpunit": "^13.2.6",
+                "rector/rector": "^2.5.8",
                 "roave/backward-compatibility-check": "^8.19.0",
                 "squizlabs/php_codesniffer": "^4.0.1",
                 "wyrihaximus/coding-standard": "^4.2.0",
-                "wyrihaximus/phpstan-rules-wrapper": "^14.1.0"
+                "wyrihaximus/phpstan-rules-wrapper": "^14.2.0"
             },
             "conflict": {
                 "composer-unused/symbol-parser": "<0.3.3",
+                "composer/composer": "<2.10.2",
                 "composer/pcre": "<3.3.2",
                 "sanmai/di-container": "<0.1.17",
                 "sanmai/pipeline": "<7.9",
                 "wyrihaximus/makefiles": "<0.5.0"
             },
             "require-dev": {
-                "wyrihaximus/makefiles": "^0.13.1"
+                "wyrihaximus/makefiles": "^0.13.3"
             },
             "suggest": {
                 "wyrihaximus/async-test-utilities": "The recommended addition to this package when building ReactPHP packages and projects.",
@@ -10969,7 +10970,7 @@
             "description": "🛠️ Test utilities for api-clients packages",
             "support": {
                 "issues": "https://github.com/WyriHaximus/php-test-utilities/issues",
-                "source": "https://github.com/WyriHaximus/php-test-utilities/tree/13.4.0"
+                "source": "https://github.com/WyriHaximus/php-test-utilities/tree/13.5.0"
             },
             "funding": [
                 {
@@ -10977,7 +10978,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-07-18T17:45:57+00:00"
+            "time": "2026-07-30T06:25:42+00:00"
         },
         {
             "name": "yamadashy/phpstan-friendly-formatter",
